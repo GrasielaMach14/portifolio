@@ -14,7 +14,7 @@
         <div class="header-content-inner">
           <img class="img-icon shadow
 
-          " src="img/photo.jpg" alt="Grasiela Machado">
+          " src="img/photo1.jpg" alt="Grasiela Machado">
         </div>
 
         <div class="header-content-inner">
@@ -34,41 +34,120 @@
         <div class="row">
         <div class="col-sm-6 col-md-4">
           <div class="thumbnail">
-            <img src="img/mxp2.png" alt="MixerPlay streaming de música">
+            <img src="img/mxp3.jpg" class="tamb-img" alt="MixerPlay streaming de música">
             <div class="caption">
-              <h3>Thumbnail label</h3>
+              <h3 class="text-color" >Projeto 1</h3>
               <p>...</p>
-              <p><a href="#" class="btn btn-primary" role="button">Button</a> </p>
+              <p><a target="_blank" href="#" class="btn btn-gray text-center btn-lg btn-block" role="button">Veja mais</a> </p>
             </div>
           </div>
         </div>
       <!-- </div> -->
       <div class="col-sm-6 col-md-4">
         <div class="thumbnail">
-          <img src="img/paint.jpg" alt="Arte em desenho">
+          <img src="img/paint.jpg" class="tamb-img" alt="Arte em desenho">
           <div class="caption">
-            <h3>Thumbnail label</h3>
+            <h3 class="text-color">Projeto 2</h3>
             <p>...</p>
-            <p><a href="#" class="btn btn-primary" role="button">Button</a> </p>
+            <p><a target="_blank" href="#" class="btn btn-gray text-center btn-lg btn-block" role="button">Veja mais</a> </p>
           </div>
         </div>
       </div>
     <!-- </div> -->
       <div class="col-sm-6 col-md-4">
         <div class="thumbnail">
-          <img src="img/hd.jpg" alt="Trabalho em HD">
+          <img src="img/hd.jpg" class="tamb-img" alt="Trabalho em HD">
           <div class="caption">
-            <h3>Thumbnail label</h3>
+            <h3 class="text-color">Projeto 3</h3>
             <p>...</p>
-            <p><a href="#" class="btn btn-primary" role="button">Button</a> </p>
+            <p><a href="#" class="btn btn-gray text-center btn-lg btn-block" role="button">Veja mais</a> </p>
           </div>
         </div>
       </div>
     </div>
       </div>
     </section>
+<!-- Aqui nesta seção será inserido os slides do projeto, serão utilizados o componente javascript caroulsel para deslizar todas as imagens apresentadas-->
+    <section>
+      <div class="container">
+        <div class="row">
+          <h1 class="text-center">SLIDE DE PROJETOS</h1>
+          <hr class="light">
+        </div>
+        <div class="row">
+          <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+            <!-- Indicators -->
+            <ol class="carousel-indicators">
+              <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+              <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+              <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+            </ol>
+
+            <!-- Wrapper for slides -->
+            <div class="carousel-inner" role="listbox">
+              <div class="item active">
+                <img src="img/paint.jpg" class="tam-img-caroulsel" alt="Efeitos em desenhos">
+                <div class="carousel-caption">
+                  Efeitos em desenhos
+                </div>
+              </div>
+              <div class="item">
+                <img src="img/preto.jpg" class="tam-img-caroulsel" alt="Plano de fundo">
+                <div class="carousel-caption">
+                  Uma boa imagem de plano de fundo preto
+                </div>
+              </div>
+              <div class="item">
+                <img src="img/mxp4.jpg" class="tam-img-caroulsel" alt="Streaming de músicas">
+                <div class="carousel-caption">
+                  Streaming de músicas
+                </div>
+              </div>
+              <div class="item">
+                <img src="img/background.jpg" class="tam-img-caroulsel" alt="Plano de fundo">
+                <div class="carousel-caption">
+                  Plano de fundo
+                </div>
+              </div>
+            </div>
+
+            <!-- Controls -->
+            <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+              <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+              <span class="sr-only">Previous</span>
+            </a>
+            <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+              <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+              <span class="sr-only">Next</span>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+<!-- Esta seção apresentará um container só de vídeos -->
+    <section>
+      <div class="container">
+        <div class="row">
+          <h1>Vídeo</h1>
+        </div>
+          <div class="row">
+            <div class="col-md-6">
+              <div class="embed-responsive embed-responsive-16by9">
+                <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/R0zZKlmrDpQ" allowfullscreen></iframe>
+              </div>
+            </div>
+            <div class="col-md-6">
+              <div class="embed-responsive embed-responsive-16by9">
+                <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/R0zZKlmrDpQ" allowfullscreen></iframe>
+              </div>
+            </div>
+          </div>
+
+      </div>
+    </section>
+
     <!-- Esta tag do JQuery simplifica a utilização do javascript -->
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
     <!-- Aqui é adicionado o script do javascript usando boodstrap -->
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
 

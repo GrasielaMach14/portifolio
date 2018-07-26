@@ -26,9 +26,9 @@ header {
    text-align: center;
 }
 .img-icon{
-     width: 20%;
-     border: 5px solid white;
-     /* border-radius: 100%; */
+     width: 25%;
+     border: 20px solid #99999940;
+     border-radius: 100%;
  }
  header .header-content .header-content-inner h1 {
   font-weight: 700;
@@ -81,8 +81,11 @@ header {
 .text-center{
   text-align: center;
   color: #F0F8FF;
-
 }
+.text-color{
+  color: #dff0d8a8;
+}
+
 section{
 padding: 100;
 }
@@ -97,4 +100,23 @@ hr.light {
 .thumbnail{
   border: 1px solid #ddd !important;
   background-color: rgba(255,255,255,.1) !important;
+}
+.btn-gray{
+  color: white;
+  background-color: #7E8C8D;
+  border-color: #5B6777;
+}
+a:hover {
+    color: #fff;
+    text-decoration: none;
+    background-color: #286090;
+
+}
+.tamb-img{
+  width: 100%;
+  height: 266px !important;
+}
+.tam-img-caroulsel{
+  width: 100% !important;
+  height: 590px !important;
 }
