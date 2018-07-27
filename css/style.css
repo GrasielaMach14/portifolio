@@ -120,3 +120,9 @@ a:hover {
   width: 100% !important;
   height: 590px !important;
 }
+.text-font{
+  font-family: 'Anton', sans-serif;
+}
+footer{
+  font-size: 20px;
+}
