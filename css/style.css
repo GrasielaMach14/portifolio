@@ -14,6 +14,7 @@ header {
    background-image: url('../img/luz.jpg');
    text-align: center;
    color: white;
+   margin-bottom: 1%;
  }
  header .header-content {
    position: relative;
@@ -96,6 +97,9 @@ hr.light {
 .background-section{
   background-image: url('../img/one.jpg');
   background-color: gray;
+  background-size: 1200px;
+  margin-bottom: 1%;
+  margin-top: 5%;
 }
 .thumbnail{
   border: 1px solid #ddd !important;
